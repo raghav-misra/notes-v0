@@ -9,6 +9,7 @@
     font-size: 16px;
     --back: rgb(23, 27, 32);
     --fore: rgb(54, 63, 75);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -17,9 +18,12 @@ body {
 
 .title {
     font-size: 3rem;
+    padding: 1rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: normal;
+    background: cornflowerblue;
+    border-radius: 10px 10px 0 0;
 }
 
 .nuxt-content * {
