@@ -3,10 +3,10 @@ title: Oscillations/Waves/Sounds
 subject: physics
 ---
 
-# Kinematic equations.
+## Kinematic equations.
 - Review of the four main kinematics equations.
 
-# Momentum review.
+## Momentum review.
 - *p = mv*
     - Formula for an object’s momentum.
 - *(m1)(v1i) + (m2)(v2i) = (m1)(v1f) + (m2)(v2f)*
@@ -14,7 +14,7 @@ subject: physics
 - *(m1)(v1i) + (m2)(v2i) = vf(m1 + v1)*
     - Two objects collide and stick together.
 
-# Wave characteristics.
+## Wave characteristics.
 
 - A **wave** is a disturbance propagating through space that usually transfers energy.
     - Acts in a ripple effect.
@@ -35,7 +35,7 @@ subject: physics
     - The wave’s **velocity** is *v = λ/T = λf*
         - Wavelength in the time of a period.
 
-# Wave interference.
+## Wave interference.
 
 - To figure out what happens when two wave pulses collide, you can add the waves visually.
     - This applies for partial overlap as well.
@@ -47,11 +47,11 @@ subject: physics
     - This is have both pulses are in opposing directions.
     - One of the waves is deemed “negative” and the addition becomes a subtraction of the “positive” pulse - the pulse in the opposing direction.
 
-# Waves traveling mediums.
+## Waves traveling mediums.
 
 When happens when a waves travels into a different medium.
 
-# Standing waves.
+## Standing waves.
 
 - In confined mediums, waves will reflect and bounce off of a medium’s boundaries.
 - This reflection will make the wave overlap with itself.
@@ -67,7 +67,7 @@ When happens when a waves travels into a different medium.
                 - *L* is the length of the medium.
                 - *n* is the number of the **harmonic**, the positive integer multiple of the fundamental frequency.
 
-# Simple harmonic motion.
+## Simple harmonic motion.
 
 - **Oscillator** goes back & forth to return to equilibrium position.
     - **The restoring force** returns it to initial position.
@@ -94,7 +94,7 @@ When happens when a waves travels into a different medium.
             - *ω = 2π/T*
                 - Remember T is the period.
 
-# Spring oscillators.
+## Spring oscillators.
 
 - The spring itself provides the restoring force.
 - **Hooke’s Law**: *Fs = -kx*.
@@ -111,7 +111,7 @@ When happens when a waves travels into a different medium.
     - Works in the vertical direction as well.
     - Doesn’t depend on gravity.
 
-# Simple pendulums.
+## Simple pendulums.
 
 - A mass, m, attached to a string of length l, that can swing back & forth.
 It is a simple harmonic oscillator, which means it can be represented by a sinusoidal function.
@@ -131,7 +131,7 @@ g is the ACCELERATION due to gravity.
 Increase in g decreases period.
 Changing the mass doesn’t affect the period.
 
-# Energy in oscillators.
+## Energy in oscillators.
 
 - As mass oscillates, *PE* will turn to *KE*, and vice versa, repeatedly.
 - Formulas:
@@ -141,7 +141,7 @@ Changing the mass doesn’t affect the period.
 - When *PE* is maximum, *KE* is zero, *v* (velocity) is zero.
 - When *PE* is zero, *KE* is maximum, *v* is maximum.
 
-# Sound characteristics.
+## Sound characteristics.
 
 - Sound displaces air molecules and oscillates them.
     - The molecules get pushed, and return to their initial state, repeatedly.
@@ -163,7 +163,7 @@ Changing the mass doesn’t affect the period.
         - Can't be calculated normally from the *dt* graph because that graph represents an individual air molecule, so the distance between peaks on that graph would be the period.
     - Sound as a whole is a longitudinal wave.
 
-# Standing sound waves.
+## Standing sound waves.
 
 - Tube with both ends open:
     - Molecules on both ends can oscillate.
@@ -199,7 +199,7 @@ Changing the mass doesn’t affect the period.
     - **Displacement Anti-Nodes** are where the molecules displace the most.
         - At the open ends of tubes because the particles at the end displace (by the amplitude) more than at anywhere else.
 
-# Sound wave interference.
+## Sound wave interference.
 
 - Same frequencies:
     - If two waves with same frequencies are exactly overlapped, the sound would get louder due to constructive interference.
@@ -212,9 +212,9 @@ Changing the mass doesn’t affect the period.
 - Wobbles in volume when waves of different frequencies overlap.
     - *fB = |f1 - f2|*
     - The beat frequency is the difference between the two frequencies.
-    - The # of times the superposed wave goes from constructive interference to destructive interference and back per second.
+    - The ## of times the superposed wave goes from constructive interference to destructive interference and back per second.
 
-# Doppler effect.
+## Doppler effect.
 
 - The Doppler Effect is a phenomenon where if a moving body is emitting a wave to a stationary object, the perceived frequency will be different that the wave’s true frequency.
 - Stationary object emitting a *1 Hz* wave:

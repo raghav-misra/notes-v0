@@ -1,5 +1,7 @@
 <template>
     <section>
+        <span class="page-title">Welcome Home!</span>
+
         <h1 class="title">Raghav's Epic Notes</h1>
         <div class="sheet">
             <div
@@ -60,6 +62,13 @@ export default Vue.extend({
 }
 
 .notes-entry {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.page-title {
+    margin-bottom: 1rem;
+    display: inline-block;
     font-size: 1.5rem;
 }
 </style>

@@ -1,17 +1,19 @@
 <template>
     <section>
+        <nuxt-link to="/" class="back-button">⟵ Back Home</nuxt-link>
+
         <h1 class="title">{{ title }}</h1>
 
-        <details class="toc">
+        <details v-if="document && document.toc" class="toc">
             <summary><h2>Contents:</h2></summary>
 
             <div class="headings">
                 <a
-                    v-for="(section, i) in toc"
+                    v-for="(section, i) in document.toc"
                     :key="i"
                     :href="`#${section.id}`"
                 >
-                    {{ section.textContent }}
+                    {{ section.text }}
                 </a>
             </div>
         </details>
@@ -36,7 +38,6 @@ export default Vue.extend({
     data() {
         return {
             document: null as IContentDocument | null,
-            toc: [] as HTMLHeadingElement[],
         };
     },
 
@@ -57,20 +58,6 @@ export default Vue.extend({
     watch: {
         title() {
             document.title = this.title === "" ? "Notes" : this.title;
-        },
-        document() {
-            this.updateToc();
-        },
-    },
-
-    mounted() {
-        this.updateToc();
-    },
-
-    methods: {
-        updateToc() {
-            const article = this.$refs.document as HTMLElement;
-            this.toc = Array.from(article.querySelectorAll("h1"));
         },
     },
 });
@@ -112,4 +99,11 @@ export default Vue.extend({
     text-decoration: none;
     color: cornflowerblue !important;
 }
+
+.back-button {
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
 </style>
