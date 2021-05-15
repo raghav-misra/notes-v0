@@ -18,7 +18,7 @@
             </div>
         </details>
 
-        <article ref="document" class="sheet">
+        <article ref="document" class="page">
             <small>
                 <i>YOU GUYS BETTER GIVE ME CREDIT ON THE TEST</i> ❤️
                 <br />
@@ -64,6 +64,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+/* table of contents */
 .toc {
     background: white;
     padding: 1rem 2rem;
@@ -100,6 +101,7 @@ export default Vue.extend({
     color: cornflowerblue !important;
 }
 
+/* go back -button */
 .back-button {
     margin-bottom: 1rem;
     display: inline-block;

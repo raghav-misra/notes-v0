@@ -3,7 +3,7 @@
         <span class="page-title">Welcome Home!</span>
 
         <h1 class="title">Raghav's Epic Notes</h1>
-        <div class="sheet">
+        <div class="page">
             <div
                 v-for="(subjectNotes, subjectName, i) in notesBySubject"
                 :key="i"
