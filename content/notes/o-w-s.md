@@ -1,5 +1,6 @@
 ---
 title: Oscillations/Waves/Sounds
+subject: physics
 ---
 
 # Kinematic equations.

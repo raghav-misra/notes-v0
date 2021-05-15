@@ -34,3 +34,19 @@ body {
     margin: 1rem 0;
     font-size: 2.5rem;
 }
+
+section {
+    padding: 2rem;
+}
+
+section > * {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.sheet {
+    background: rgb(54, 63, 75);
+    border-radius: 0 0 10px 10px;
+    box-shadow: rgb(60 64 67 / 15%) 0px 3px 3px 1px !important;
+    padding: 2rem;
+}

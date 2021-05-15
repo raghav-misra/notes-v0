@@ -59,6 +59,16 @@ export default Vue.extend({
             document.title = this.title === "" ? "Notes" : this.title;
         },
         document() {
+            this.updateToc();
+        },
+    },
+
+    mounted() {
+        this.updateToc();
+    },
+
+    methods: {
+        updateToc() {
             const article = this.$refs.document as HTMLElement;
             this.toc = Array.from(article.querySelectorAll("h1"));
         },
@@ -67,22 +77,6 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-section {
-    padding: 2rem;
-}
-
-section > * {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-.sheet {
-    background: rgb(54, 63, 75);
-    border-radius: 0 0 10px 10px;
-    box-shadow: rgb(60 64 67 / 15%) 0px 3px 3px 1px !important;
-    padding: 2rem;
-}
-
 .toc {
     background: white;
     padding: 1rem 2rem;
