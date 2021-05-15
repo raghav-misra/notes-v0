@@ -1,6 +1,5 @@
 ---
 title: DBQ CAPP Helpers
-subject: history
 ---
 
 ## Author's point of view.

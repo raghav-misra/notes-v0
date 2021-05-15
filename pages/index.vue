@@ -32,7 +32,7 @@ export default Vue.extend({
 
     async fetch() {
         const content = await this.$content("notes")
-            .only(["slug", "title", "subject"])
+            .only(["slug", "title"])
             .fetch();
 
         this.notes = content as IContentDocument[];
@@ -43,11 +43,13 @@ export default Vue.extend({
             const notesBySubjectDict: Record<string, IContentDocument[]> = {};
 
             for (const note of this.notes) {
-                if (!notesBySubjectDict[note.subject]) {
-                    notesBySubjectDict[note.subject] = [];
+                const subject = note.slug.split("-")[0];
+
+                if (!notesBySubjectDict[subject]) {
+                    notesBySubjectDict[subject] = [];
                 }
 
-                notesBySubjectDict[note.subject].push(note);
+                notesBySubjectDict[subject].push(note);
             }
 
             return notesBySubjectDict;

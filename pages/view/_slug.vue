@@ -89,14 +89,13 @@ export default Vue.extend({
 }
 
 .toc .headings {
-    display: flex;
-    margin-top: 0.5rem;
     flex-wrap: wrap;
+    display: flex;
+    margin: 0.5rem;
 }
 
 .toc a {
-    display: inline-block;
-    width: 33%;
+    width: 32%;
     text-decoration: none;
     color: cornflowerblue !important;
 }
