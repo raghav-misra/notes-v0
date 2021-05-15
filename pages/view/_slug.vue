@@ -105,5 +105,4 @@ export default Vue.extend({
     display: inline-block;
     font-size: 1.5rem;
 }
-
 </style>
