@@ -4,7 +4,8 @@ subject: physics
 ---
 
 ## Kinematic equations.
-- Review of the four main kinematics equations.
+
+![Image](/img/physics/kinematic-equations.png)
 
 ## Momentum review.
 - *p = mv*
@@ -20,7 +21,9 @@ subject: physics
     - Acts in a ripple effect.
 - Types of waves:
     - A **transverse wave** is a wave with oscillations perpendicular to the direction of propagation.
+        - ![Image](/img/physics/transverse-wave.png)
     - A **longitudinal wave** is a wave with oscillations parallel to the direction of propagation.
+        - ![Image](/img/physics/longitudinal-wave.png)
 - A **periodic wave** follows the pattern of a sinusoidal function and moves with constant speed.
     - The wave’s **peak** is its highest point.
     - The wave’s **trough** is its lowest point.
@@ -49,7 +52,7 @@ subject: physics
 
 ## Waves traveling mediums.
 
-When happens when a waves travels into a different medium.
+![Image](/img/physics/waves-traveling-mediums.png)
 
 ## Standing waves.
 
@@ -61,6 +64,7 @@ When happens when a waves travels into a different medium.
 - **Anti-nodes** are points on a standing wave where the wave vibrates with maximum amplitude.
 - Wavelengths & frequencies make standing waves when there is a node at each end.
     - Special wavelengths:
+        - ![Image](/img/physics/standing-wavelengths.png)
         - This wavelengths make standing waves because the nodes are evenly spaced across the medium.
         - Formula for special wavelengths:
             - *λn = (2L)/n*
@@ -87,6 +91,7 @@ When happens when a waves travels into a different medium.
             - *f = 1/T*
     - Graphing the system:
         - Sinusoidal function: position **(*x*)** vs. time **(*t*)**.
+        - ![Image](/img/physics/shm-graph.png)
         - Equations:
             - Start equilibrium: *x(t) = Asin(ωt)*
             - Start maximum: *x(t) = Acos(ωt)*
@@ -168,9 +173,12 @@ Changing the mass doesn’t affect the period.
 - Tube with both ends open:
     - Molecules on both ends can oscillate.
     - However, the air in the middle of the tube is unable to oscillate.
+        - ![Image](/img/physics/sound-open-tube.png)
     - This is a **standing wave** because the compressed regions aren’t explicitly moving, rather the particles appear to bounce back and forth the middle of the tube, where the air particles aren’t oscillating.
+        - ![Image](/img/physics/sound-open-tube-displacement.png)
     - The particles further from the center are displacing by increasing amounts.
     - However, as you get close to the center, the displacements get closer to zero.
+        - ![Image](/img/physics/sound-open-tube-graph.png)
     - The middle doesn’t displace, so it’s a **node**.
     - The ends move the most, so they’re **anti-nodes**.
     - The length of this wave in this tube is half the wavelength.
@@ -181,8 +189,10 @@ Changing the mass doesn’t affect the period.
 - Tube with one end open, one end closed:
     - Air oscillates on the open side of the tube. 
     - However, the air near the closed end doesn’t have space to oscillate.
-    - Those molecules try to oscillate, but bump into the closed end and lose their energy.
+        - ![Image](/img/physics/sound-closed-tube.png)
+        - Those molecules try to oscillate, but bump into the closed end and lose their energy.
     - This is a **standing wave** because the compressed regions aren’t explicitly moving, rather the particles appear to bounce back and forth from the closed side.
+        - ![Image](/img/physics/sound-closed-tube-graph.png)
     - On the open end, there is an **anti-node**, because there is a lot of movement and oscillation.
     - On the closed end, there is a **node**, as it stays in place and doesn’t oscillate.
     - The length of this wave in this tube is ½ the wavelength.
@@ -198,6 +208,7 @@ Changing the mass doesn’t affect the period.
     - **Displacement Nodes** are where the particles don't change position or displace.
     - **Displacement Anti-Nodes** are where the molecules displace the most.
         - At the open ends of tubes because the particles at the end displace (by the amplitude) more than at anywhere else.
+    - ![Image](/img/physics/pressure-displacement-nodes.png)
 
 ## Sound wave interference.
 
@@ -206,8 +217,10 @@ Changing the mass doesn’t affect the period.
     - If they are are overlapped inversely, meaning wave A’s peaks are concurrent with wave B’s troughs and vice versa, destructive interference should cancel the whole thing out.
 - Different frequencies:
     - This overlap starts off constructively, but over time, the differences in frequency would make an increasing discrepancy between the waves. 
+        - ![Image](/img/physics/sound-wave-interference.png) 
     - The sound will cycle between being loud and soft, because the period discrepancy results in a constant back & forth between constructive and destructive interference.
     - Resultant wave:
+        - ![Image](/img/physics/beat-frequency-example.png)
 - This is called **beat frequency**.
 - Wobbles in volume when waves of different frequencies overlap.
     - *fB = |f1 - f2|*
@@ -218,4 +231,6 @@ Changing the mass doesn’t affect the period.
 
 - The Doppler Effect is a phenomenon where if a moving body is emitting a wave to a stationary object, the perceived frequency will be different that the wave’s true frequency.
 - Stationary object emitting a *1 Hz* wave:
+    - ![Image](/img/physics/doppler-effect-stationary.png)
 - Object moving at *5 [m/s]* emitting a *1 Hz* wave:
+    - ![Image](/img/physics/doppler-effect-moving.png)

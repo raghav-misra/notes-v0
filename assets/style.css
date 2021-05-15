@@ -44,6 +44,11 @@ a:focus {
     font-size: 2.5rem;
 }
 
+.nuxt-content img {
+    border-radius: 10px;
+    max-width: 75%;
+}
+
 /* Main container, wraps .page */
 section {
     padding: 2rem;
