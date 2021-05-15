@@ -1,3 +1,5 @@
+import { promises as fs } from "fs";
+
 export default {
     // Target: https://go.nuxtjs.dev/config-target
     target: "static",
@@ -29,8 +31,13 @@ export default {
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: ["~/assets/style.css"],
 
-    // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [],
+    generate: {
+        async routes() {
+            const notePaths = await fs.readdir("./content/notes");
+
+            return notePaths.map((p) => `/view/${p.split(".")[0]}`);
+        },
+    },
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
