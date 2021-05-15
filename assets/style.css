@@ -1,0 +1,32 @@
+* {
+    font-family: "IBM Plex Mono", "Segoe UI", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root {
+    font-size: 16px;
+    --back: rgb(23, 27, 32);
+    --fore: rgb(54, 63, 75);
+}
+
+body {
+    background: var(--back);
+}
+
+.title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+}
+
+.nuxt-content * {
+    margin: 0.25rem 0;
+}
+
+.nuxt-content h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
