@@ -59,6 +59,7 @@ export default Vue.extend({
 <style scoped>
 .subject-name {
     font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .notes-entry {
