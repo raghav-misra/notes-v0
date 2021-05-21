@@ -49,6 +49,12 @@ export default Vue.extend({
         this.document = Array.isArray(content) ? content[0] : content;
     },
 
+    head() {
+        return {
+            title: `notes/${this.$route.params.slug}`,
+        };
+    },
+
     computed: {
         title(): string {
             return this.document ? this.document.title : "";

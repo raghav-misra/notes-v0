@@ -6,7 +6,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "Raghav's Epic Notes",
+        title: "notes",
         htmlAttrs: {
             lang: "en",
         },
