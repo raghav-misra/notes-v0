@@ -67,6 +67,7 @@ export default Vue.extend({
 .notes-entry {
     font-size: 1.5rem;
     margin-left: 2rem;
+    display: block;
 }
 
 .page-title {
